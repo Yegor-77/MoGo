@@ -1,0 +1,236 @@
+ :root{
+       /*змінні*/
+       --text-color: #B6B6B6;
+       --bg-color: #FFF;
+       --axent: #95E1D3;
+       --hover-color:  #F38181;
+       --dark-text: #333333;
+       --size: 14px;
+   }
+
+
+   .container{
+    1200
+   }
+   
+
+   .div{
+    padding: 30px;
+    border: 5px , green;
+    margin: 100px;
+    size: 150px;
+    width: 150px;
+    background-color: blue;
+    border-radius: 100%;
+   }
+
+   *{
+    box-sizing: border-box;
+
+   }
+
+   .a{
+    text-decoration: none;
+    cursor: pointer;
+   }
+
+   h1 , h2 , h3 , p , ul , li, img , a{
+    padding: 0;
+    margin: 0 ;
+   }
+   h2, h3, h4{
+    color: var(--dark-text);
+   }
+   .ul{
+    list-style: none;}
+
+.container{
+width: 1220px;
+margin: 0 auto;
+padding:0 10px ;
+border:1px solid red ;
+
+}
+
+.services{
+    margin-bottom: 100px;
+}
+
+.team{
+    margin-bottom: 90px;
+}
+
+
+
+
+.invisible-header{
+    display: none;
+    margin: 0;
+    padding: 0;
+    width: 0;
+    height: 0;
+}
+
+   .footer-link{
+       color: var(--hover-color);
+       cursor: pointer;
+   }
+   .footer-link:hover,
+   .footer-link:forus{
+       color: var(--axent);
+   }
+   .form-btn{
+       background-color: #B6B6B6;
+       cursor: pointer;
+   }
+   .form-btn:hover,
+   .form-btn:focus
+   
+   .header-item:nth-child(2n) {
+       /*kozna parna ditina*/
+       background-color: chartreuse;
+   }
+   .header-item:nth-child(odd){
+       /*kozna ne parna ditina*/
+       background-color: chocolate;
+   }
+   .header-item:nth-child{
+       border: 1px solid red
+   }
+
+   .body{
+    color: var(--bg-color);
+    background-color: var(--bg-color);
+    font-family: "Monserrat" , sans-serif ;
+    font-size: 15px;
+    line-height: 1.13;
+    font-weight:400 ;
+   }
+   .logo{
+    color: var(--axent);
+    cursor: pointer;
+   }
+
+.nav-link{
+color: var(--axent);
+font-family: "Montserrat";
+font-size: 14px;
+font-weight: 400;
+}
+
+.nav-link:hover{
+    color: var(--hover-color);
+}
+
+.invisible-header{
+    color: var(#333333);
+    font-family: "Kaushan Script";
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 1.45;
+}
+
+.Amazing Services{
+color: var(--dark-text);
+font-family: "Montserrat";
+font-size: 30px;
+font-style: normal;
+font-weight: 700;
+line-height: 1.23;
+}
+
+
+
+
+
+
+
+
+
+.team-name{
+color: var(--dark-text);
+text-align: center;
+font-family: "Montserrat" , sans-serif;
+font-size: 14px;
+font-weight: 400;
+line-height: 1.2;
+
+}
+
+.team-workaut{
+color: var(--text-color);
+
+text-align: center;
+font-family: "Roboto" , sans-serif;
+font-size: 15px;
+font-style: italic;
+font-weight: 300;
+line-height: 1.2;
+}
+
+.footer-text{
+color: var(--dark-text);
+text-align: center;
+font-family: "Montserrat" , sans-serif;
+font-size: 14px;
+font-weight: 400;
+line-height: 1.2;
+}
+
+
+.footer-link{
+color: var(--hover-color);
+font-family: "Montserrat" , sans-serif;
+font-size: 14px;
+font-weight: 400;
+line-height: 1.2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.aaa{
+    text-transform: lowercase;
+    text-transform: uppercase;
+    text-align: center;
+}
