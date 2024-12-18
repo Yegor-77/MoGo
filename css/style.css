@@ -234,3 +234,40 @@ line-height: 1.2;
     text-transform: uppercase;
     text-align: center;
 }
+
+
+
+
+
+
+.btn{
+    padding: 15px 20px;
+    background-color: #2196F3;
+             }
+
+
+
+
+
+  .just::before{
+content:"" ;
+      background-image: url(/img/icons8-app-50.png);
+  
+      display: inline-block;
+ width: 24px;
+ height: 24px;
+ background-size:contain ;
+  }
+
+
+  
+.just::before:hover{
+content: "";
+         background-image: url(/img/icons8-app-50\ \(3\).png);
+     
+         display: inline-block;
+    width: 24px;
+    height: 24px;
+    background-size: contain;
+     }
+
